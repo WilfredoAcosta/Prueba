@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.menu ul{
+    display: inline-flex;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+}
+a{
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+    width: 13%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.menu h2{
+    color: white;
+    padding: 20px;
+}
+.menu li{
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+    width: 13%;
+    text-align: center;
+    color: white;
+}
+
+.menu li:hover{
+    color: gray;
+    background-color: rgba(0,0,51,0.7);
+    transition: 1.5s;
+}
+.lista li{
+    list-style: disc;
+    
+}
+.lista{
+    margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+
+.square li{
+    list-style: square;
+}
+.square{
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+
+.circle{
+    list-style: circle;
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+.decimal{
+    list-style: decimal;
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+.georgian{
+    list-style: georgian;
+    margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+    
+}
+.greek{
+    list-style: lower-greek;
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+.armenian{
+    list-style: armenian;
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+.none{
+    list-style: none;
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+.inherit{
+    list-style: inherit;
+    margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+.roman{
+    list-style: upper-roman;
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+    
+}
+
+.alpha{
+    list-style: upper-alpha;
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}
+.latin{
+    list-style: lower-latin;
+     margin: auto;
+    margin-left: 45%;
+    padding: 20px;
+}

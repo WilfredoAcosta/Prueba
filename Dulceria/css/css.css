@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(252,148,56,0.8);
+    width: 100%;
+    font-family: cursive;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    
+}
+
+.entrar{
+    
+    position: absolute;
+    margin: auto;
+    margin-top: 80px;
+    left: 50%;
+    color: transparent;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+
+}
+.entrar:hover{
+    visibility: visible;
+    color: white;
+    background-color:  rgb(252,148,56);
+    visibility: visible;
+}
+ul li{
+    display: inline-block;
+    cursor: pointer;  
+    float: right;
+    transform: translateX(-190px) translateY(-100px);
+    padding: 10px
+    
+}
+
+.derecha span{
+    color: rgba(252,148,56);
+}
+li{
+    font-size: 18px;
+    color: white;
+}
+li:hover{
+    color: #fc9438;
+    background-color: black;
+    transition: 1s;
+}
+.banner{
+    background-image: url(../img/banner3.jpeg);
+    width: 100%;
+    height: 500px;
+    padding-bottom: 40px
+}
+
+a{
+    text-decoration: none;
+     margin: 0 auto;
+    text-align: center;
+    transform: rotateX(-80px) rotateY(80px);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    margin: 50px;
+    color: #fc9438
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: #fc9438
+}
+a{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 700;
+}
+p{
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 50px;
+}
+#imagen{
+    width: 30%;
+    margin: 50px;
+}
+.derecha{
+    width: 30%;
+   /* transform: translateX(700px) translateY(-320px);     */ 
+    position: absolute;
+    left: 50%;
+    margin-top: -350px;
+}
+.galeria{
+    overflow: scroll;
+    width: 100%;
+    height: 400px
+}
+.galeria img{
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 400px;
+    padding: 5px;
+    margin: 20px;
+    max-width: 400px;
+}
+.importante{
+    color:  orange;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+h5{
+    text-align: center;
+    color: white;
+}
+h4{
+    text-align: center;
+    color: white;
+}
+span{
+    color: white;
+}
+
+a span{
+ left: 39%;
+    display: inline-block;
+  padding: 10px;
+    position: relative;
+    width: 70px;
+    height: 70px;
+}

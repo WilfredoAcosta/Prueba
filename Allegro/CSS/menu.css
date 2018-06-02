@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: transparent;
+}
+
+#btn-menu{
+    display: none;
+}
+header h4{
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 50px;
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.contenedor h2{
+text-align: center;
+    color: rgb(223, 125, 59);
+    padding: 35px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.letrero{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: rgb(223, 125, 59);
+   margin-right: 90px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.contenedor p{
+    padding: 20px;
+    font-size: 18px;
+}
+.imagen2{
+    width: 45%;
+    float: right;
+}
+.imagen2 img{
+    width: 300px;
+    height: 220px;
+    border: 5px rgba(0,0,0,0.7) inset;
+}
+.parrafos{
+    width: 45%;
+    float: left;
+    padding: 15px;
+}
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: none;
+}
+
+.imagen{
+    background-image: url(../IMG/wallpaper2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.4);
+    transition: 0.5s;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.iconos{
+    margin: 10 auto;
+    
+}
+.icon-twitter, .icon-facebook, .icon-gmail{
+    margin-left: 22%;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+footer{
+    width: 100%;   
+    height: 125px;
+    background-color: black;
+}
+footer li{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.foco{
+    border: 3px white inset;
+}
+.pensador{
+    color: rgba(0,0,0,0.6);
+}
+.menu li:hover{
+    background: rgba(0,0,0,0.6);
+}
+
+.formulario {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.formulario li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.formulario label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.formulario input, textarea, select{
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    outline: none;  
+}
+
+.field-divided{
+    width: 49%;
+}
+
+.field-long{
+    width: 90%;
+}
+.field-select{
+    width: 90%;
+}
+.field-textarea{
+    height: 100px;
+}
+.formulario input[type=submit], .formulario input[type=button]{
+    background: rgb(223, 125, 59);
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.formulario input[type=submit]:hover, .formulario input[type=button]:hover{
+    background: rgb(187, 107, 54);
+  
+}
+.formulario .required{
+    color:red;
+}
+@media (max-width:768px) and (min-width: 560px){
+ header h4{
+     font-size: 40px;
+     margin-top: 35%;
+     margin-left: 10%;
+ }
+ .imagen{
+    height: 600px;
+ }
+.parrafos{
+    width: 90%;
+}
+.imagen2{
+    float: left;
+    margin-left: 25%;
+}
+}
+@media (max-width:559px) and (min-width: 360px){
+    header h4{
+        font-size: 25px;
+        margin-top: 35%;
+        margin-left: 8%;
+    }
+    .imagen{
+        height: 550px;
+    }
+   .parrafos{
+       width: 90%;
+       margin: 0;
+   }
+   .imagen2{
+    float: left;
+    margin-left: 25%;
+}
+}
+@media (max-width:359px) and (min-width: 200px){
+    header h4{
+        font-size: 30px;
+        margin-top: 55%;
+        margin-left: 7%;
+    }
+    .contenedor h2{
+        font-size: 35px;
+    }
+   .parrafos{
+       width: 90%;
+       margin: 0
+   }
+   .imagen{
+    height: 500px;
+   }
+   .imagen2{
+    float: left;
+    margin-left: 12%;
+   }
+   .imagen2 img{
+       width: 250px;
+       height: 220px;
+   }
+
+}
+@media (max-width:768px){
+    header label{
+        display: block;
+    }
+    header label:hover{
+        border: 2px solid white;
+    }
+    .menu{
+        position: absolute;
+        background: rgba(0,0,0,0.5);
+        width: 80%;
+        margin-left: -80%;
+        transition: all 1s;
+    }
+    
+    .menu ul{
+        flex-direction: column;
+    }
+    
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+        
+    }
+}
+

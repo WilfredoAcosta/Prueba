@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+body{
+   
+}
+
+/*Inicio menu*/
+header{
+    width: 100%;
+    background:#3b3630;
+    position: fixed;
+    z-index: 100;
+}
+
+#boton{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
+}
+
+header label:hover{
+    cursor: pointer;
+    background: #fbcc88;
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a:hover{
+    color: #fbcc88;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+@media(max-width:768px){
+    header label{
+        display: block;
+        z-index: 100;
+    }
+    
+    .menu{
+        position: absolute;
+        background: #3b3630;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 1s;
+        z-index: 100;
+    }
+    
+    .menu ul{
+        flex-direction: column;
+        z-index: 1000;
+    }
+    .menu li{
+        border-top: 1px solid white;
+        text-align: center;
+        z-index: 100;
+    }
+    #boton:checked ~ .menu { 
+        margin: 0;
+    }
+   
+}
+
+/*Fin menu*/
+
+/*Inicio del parrallax*/
+section{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.parrallax{
+    background: white fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+
+#seccionuno{
+    height: auto;
+    
+}
+/*Fin parrallas*/
+/*Inicio galeria*/
+.galeria{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width:  1000px;
+    margin: auto;
+}
+
+.galeria-img{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 30px;
+    object-fit: fill;
+}
+
+.casa{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+h1{
+    text-align: center;
+}
+/*Fin galeria*/
+/*Footer*/
+.footer{
+   position: fixed;
+   left:0px;
+   bottom:0px;
+   height:45px;
+   width:100%;
+   background:#3b3630;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+  color: white;
+margin-right: 2px;
+}
+
+.icon-gmail:before {
+  content: "\e901";
+  color: white;
+margin-right: 2px;
+}
+
+.icon-googleplus:before {
+  content: "\e902";
+  color: white;
+    margin-right: 2px;
+}
+.icon-instagram:before {
+  content: "\e903";
+  color: white;
+   margin-right: 2px;
+}
+.icon-snapchat:before {
+  content: "\e904";
+  color: white;
+    margin-right: 2px;
+}
+.icon-twitter:before {
+  content: "\e905";
+  color: white;
+    margin-right: 2px;
+}
+.icon-youtube:before {
+  content: "\e906";
+  color: white;
+margin-right: 2px;
+}
+ 
+p{
+    text-align: center;
+}
+
+.icon-facebook, .icon-twitter,.icon-instagram{
+    margin-top: -21px;
+    margin-left: 10px;
+    float: right;
+    font-size: 25px;
+    color: white;
+    margin-right: 10px;
+}
+
+.diferente li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 0;
+    display: block;
+    float: left;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

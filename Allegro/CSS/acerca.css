@@ -1,0 +1,240 @@
+
+.section1{
+    padding: 25px;
+    margin-top: 15px;
+    height: 400px;
+    text-align: center;
+}
+.contenedor3{
+    display: inline-flex;
+    padding: 25px;
+    margin: 15px;
+}
+.img{
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+.img1{
+    float: left;
+    margin: 25px;
+    background-color:#E5682E;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px;
+    height: 160px;
+}
+.img2{
+    float: left;
+    margin: 25px;
+    margin-left: 125px;
+    padding: 5px;
+    height: 160px;
+    background-color:#E5682E;
+    border-radius: 5px;
+    border: 2px;
+}
+.img3{
+    float: left;
+    margin: 25px;
+    margin-left: 125px;
+    padding: 5px;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px;
+    background-color:#E5682E;
+}
+.img4{
+    float: left;
+    margin: 25px;
+    margin-left: 125px;
+    padding: 5px;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: #E5682E;
+}
+.img5{
+    float: left;
+    margin: 25px;
+    padding: 5px;
+    margin-left: 125px;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: #E5682E;
+    margin-left: -290px;
+}
+.img6{
+    float: left;
+    margin: 25px;
+    padding: 5px;
+    margin-left: 125px;
+    border-radius: 5px;
+    border: 2px;
+    height: 160px;
+    background-color: #E5682E;
+}
+.img7{
+    float: left;
+    margin: 25px;
+    padding: 5px;
+    margin-left: 125px;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: #E5682E;
+}
+
+.img8{
+    float: left;
+    margin: 25px;
+    padding: 5px;
+    margin-left: 125px;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: #E5682E;
+}
+
+.img9{
+    float: left;
+    margin: 25px;
+    padding: 5px;
+    margin-left: 125px;
+    height: 160px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: #E5682E;
+}
+.contenedor1{
+    display: inline-flex;
+    padding: 25px;
+    margin: 15px;
+    margin-left: 325px;
+}
+.contenedor2{
+    margin-left: 430px;
+}
+
+.img:hover{
+    opacity: 0.8;
+    filter: blur(0.8px);
+}
+@media screen and (max-width:900px){
+    .contenedor{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .section1{
+        height: 1250px;
+    }
+    .img2{
+        margin-left: 25px;
+    }
+    .img3{
+        margin-left: 25px;
+    }
+    .img4{
+        margin-left: 25px;
+    }
+    .contenedor1{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .img5{
+        margin-left: 25px;
+    }
+    .img6{
+        margin-left: 25px;
+    }
+    .img7{
+        margin-left: 25px;
+    }
+    .img8{
+        margin-left: 25px;
+    }
+    .contenedor2{
+        margin-left: 25px;
+    }
+    .img9{
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width:600px){
+    .img9{
+        margin-left: 25px;
+    }
+    .section1{
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contenedor{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .img2{
+        margin-left: 25px;
+    }
+    .img3{
+        margin-left: 25px;
+    }
+    .img4{
+        margin-left: 25px;
+    }
+    .contenedor1{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .img5{
+        margin-left: 25px;
+    }
+    .img6{
+        margin-left: 25px;
+    }
+    .img7{
+        margin-left: 25px;
+    }
+    .img8{
+        margin-left: 25px;
+    }
+    .contenedor2{
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width:1200px){
+    .contenedor{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .img2{
+        margin-left: 25px;
+    }
+    .img3{
+        margin-left: 25px;
+    }
+    .img4{
+        margin-left: 25px;
+    }
+    .contenedor1{
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .img5{
+        margin-left: 25px;
+    }
+    .img6{
+        margin-left: 25px;
+    }
+    .img7{
+        margin-left: 25px;
+    }
+    .img8{
+        margin-left: 25px;
+    }
+    .contenedor2{
+        margin-left: 25px;
+    }
+}

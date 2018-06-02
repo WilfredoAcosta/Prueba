@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.contenedor .banner {
+  background-image: url(../img/img2.jpg);
+  width: 100%;
+  background-size: 100%;
+  height: 600px;
+  background-attachment: scroll;
+  background-repeat: no-repeat; }
+.contenedor .menu1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  width: 99%;
+  float: right;
+  margin-left: 10px; }
+.contenedor .menu2 {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px; }
+.contenedor p {
+  color: white;
+  font-size: 35px;
+  position: relative;
+  margin: 0 auto; }
+
+.cuerpo {
+  width: 100%;
+  padding: 50px; }
+  .cuerpo .primera {
+    width: 30%;
+    height: 400px; }
+  .cuerpo p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify; }
+  .cuerpo img {
+    width: 50%;
+    margin: auto;
+    margin-left: 50px;
+    padding: 50px; }
+  .cuerpo input {
+    width: 100px;
+    background: rgba(59, 139, 231, 0.575); }
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  color: rgba(81, 97, 12, 0.767);
+  text-decoration-line: underline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+/*# sourceMappingURL=css2.css.map */

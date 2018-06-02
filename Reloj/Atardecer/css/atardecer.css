@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img.jpg);
+}
+.div1{
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    background-color: dimgrey;
+    border-radius: 800px;
+    border: 10px solid black;
+    animation-name: ANIMACION;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+header{
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 55px;
+    color: black;
+    font-weight: bold;
+}
+.div2{
+    height: 300px;
+    width: 600px;
+    background-color: yellowgreen;
+    margin-top: 100px;
+    border-radius: 10px 10px 600px 600px;
+    position: relative;
+    animation-name: ANIMACION2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+.div3{
+    animation-name: ANIMACION1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 300px;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+/*.catedral{
+    width: 50%;
+    height: auto;
+    animation-name: ANIMACION;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: all;
+}
+
+/*.catedral:hover{
+    transform: rotate(45deg);
+    transform: translateX(200px);
+    transform: translateY(200px);
+    transform: skewX(15deg);
+    transform: skewY(15deg);
+    transform: skew(45deg,25deg);
+    transform: scale(1.5);
+    transform: scale(-1,-1);
+    opacity: 0.55;
+    transition-duration: 4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+*/
+
+@keyframes ANIMACION{
+    0%{
+        background-color: #108dd5;
+        transition-timing-function: linear;
+        animation-duration: 1s;
+    }
+    25%{
+        background-color: #cc6c22;
+        transition-timing-function: linear;
+    }
+    50%{
+                  background-color: #d5bba8;
+        transition-timing-function: linear;
+    }
+    75%{
+         background-color: darkgray;
+        transition-timing-function: linear;
+    }
+    100%{
+         background-color: #6b6b6b;
+        transition-timing-function: linear;
+    }
+}
+@keyframes ANIMACION1{
+    0%{
+    transform: translateY(0px);
+    transition-timing-function: linear;
+        background-color: yellow;
+    }
+    25%{
+    transform: translateY(150px);
+    transition-timing-function: linear;
+    background-color: yellow;
+    }
+    50%{
+        transform: translateY(350px);
+        transition-timing-function: linear;
+        background-color: #d5bba8;
+    }
+    75%{
+        transform: translateY(150px);
+        transition-timing-function: linear;
+        background-color: azure;
+    }
+    100%{
+        transform: translateY(0px);
+        transition-timing-function: linear;
+        background-color: azure;
+    }
+}
+@keyframes ANIMACION2{
+    0%{
+        background-color: greenyellow;
+        transition-timing-function: linear;
+    }
+    25%{
+        background-color: greenyellow;
+        transition-timing-function: linear;
+    }
+    50%{
+                  background-color: #5fc14c;
+        transition-timing-function: linear;
+    }
+    75%{
+         background-color: #5fc14c;
+        transition-timing-function: linear;
+    }
+    100%{
+         background-color:#6f8f65;
+        transition-timing-function: linear;
+    }
+}
